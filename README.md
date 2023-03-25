@@ -1,2 +1,2 @@
 # LANDING PAGE
-Building a Landing page using HTML , CSS & Bootstrap
+Build a Landing page using HTML , CSS & Bootstrap5
