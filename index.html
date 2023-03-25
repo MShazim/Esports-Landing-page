@@ -7,11 +7,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container d-flex align-items-center h-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#home">ESPORTS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contactForm">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header-->
+    <div class="container d-flex align-items-center h-100" id="home">
         <div class="row">
             <header class="text-center col-12" >
                 <h1 class="text-uppercase"><strong>The Biggest Competition Of the Year</strong></h1>
@@ -26,7 +44,188 @@
         </div>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
+    <!-- Features section-->
+    <section class="py-5 border-bottom bg-dark h-50" id="features">
+            <div class="container px-5 my-5">
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-white bg-gradient  rounded-3 mb-3"><i class="bi bi-trophy"></i></div>
+                        <h2 class="h4 fw-bolder text-white">Huge Prize</h2>
+                        <p class="text-white">The prize pool for The International reached over $40 million, making it the largest prize pool in esports history.</p>
+                        <a class="text-decoration-none text-white" href="#!">
+                            Call to action
+                            <i class="bi bi-arrow-right text-white"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-white bg-gradient rounded-3 mb-3"><i class="bi bi-joystick"></i></div>
+                        <h2 class="h4 fw-bolder text-white">Best Gaming Systems</h2>
+                        <p class="text-white">Offers high performance, low input lag, and reliable hardware. <br><br></p>
+                        <a class="text-decoration-none text-white" href="#!">
+                            Call to action
+                            <i class="bi bi-arrow-right text-white"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature bg-white bg-gradient rounded-3 mb-3"><i class="bi bi-star-fill"></i></div>
+                        <h2 class="h4 fw-bolder text-white">Big Arena</h2>
+                        <p class="text-white">Provides a comfortable, distraction-free setting for players to compete in. This includes factors such as adequate lighting, temperature control, and minimal background noise. </p>
+                        <a class="text-decoration-none text-white" href="#!">
+                            Call to action
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- About-->
+    <header class="py-5" id="about">
+        <div class="container px-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-xxl-8">
+                    <div class="text-center my-5">
+                        <h2 class="fw-bolder mb-3">The Biggest Esport Competition of the Year</h2>
+                        <p class="lead fw-normal text-muted mb-4">Esports is a rapidly growing industry that involves competitive video gaming at a professional level. Players from all over the world compete in various games, such as League of Legends, Dota 2, Overwatch, and more. Esports tournaments often have large prize pools and attract millions of viewers online and in-person. As esports continues to grow in popularity, it is becoming more recognized as a legitimate sport, and professional esports players are gaining the recognition and respect they deserve.</p>
+                        <a class="btn btn-primary btn-lg" href="#contactForm">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- About section one-->
+    <section class="py-5 bg-light" id="scroll-target">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="Images/crowd.jpg" alt="..." /></div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Esports Tournaments</h2>
+                    <p class="lead fw-normal text-muted mb-0">Esports tournaments are the pinnacle of competitive gaming, where players from all over the world come together to compete for glory and a large prize pool. Some of the most well-known esports tournaments include The International (Dota 2), League of Legends World Championship, and the Overwatch League Grand Finals. These tournaments attract millions of viewers online and often take place in large arenas and stadiums. Fans can watch the action unfold live or online, and cheer on their favorite teams and players.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section two-->
+    <section class="py-5">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="Images/Winning.jpg" alt="..." /></div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Top Esports Teams</h2>
+                    <p class="lead fw-normal text-muted mb-0">In the world of esports, there are many top teams that have dominated the competition over the years. Some of the most well-known teams include Astralis, Fnatic, Team Liquid, SK Telecom T1, and Natus Vincere. These teams are made up of some of the best players in the world, who have proven themselves to be fierce competitors in their respective games.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section three-->
+    <section class="py-5 bg-light" id="scroll-target">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="Images/future.jpg" alt="..." /></div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Future of Esports</h2>
+                    <p class="lead fw-normal text-muted mb-0">As esports continues to grow in popularity, the future of the industry looks bright. Many people believe that esports has the potential to become as popular as traditional sports, and that professional esports players will eventually gain the same level of recognition and respect as athletes in other sports. With new games and tournaments constantly emerging, the esports industry is sure to continue evolving and expanding in the years to come.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial section-->
+    <div class="py-4 bg-light " id="testimonials">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-10 col-xl-7">
+                    <div class="text-center">
+                        <div class="fs-4 mb-4 text-white fst-italic">"I don't like losing, but when I do, I use it as motivation to work harder."</div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img class="rounded-circle me-3 dp-size" src="https://img-cdn.hltv.org/playerbodyshot/Q2u6AgnDNYQ3dyObwN4JBX.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=132%2C4%2C459%2C459&w=800&s=81da5699a06ed35ba865f7b628f99458" alt="..." />
+                            <div class="fw-bold text-white">
+                                S1mple
+                                <span class="fw-bold text-primary mx-1">/</span>
+                                Captain, Natus Vincere
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact section-->
+    <section class="bg-light py-5">
+        <div class="container px-5 my-5 px-5">
+            <div class="text-center mb-5">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                <h2 class="fw-bolder">Get in touch</h2>
+                <p class="lead mb-0">We'd love to hear from you</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- * * SB Forms Contact Form * *-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- This form is pre-integrated with SB Forms.-->
+                    <!-- To make this form functional, sign up at-->
+                    <!-- https://startbootstrap.com/solution/contact-forms-->
+                    <!-- to get an API token!-->
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                            <label for="name">Full name</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                            <label for="email">Email address</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                            <label for="phone">Phone number</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                        </div>
+                        <!-- Message input-->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                            <label for="message">Message</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                        </div>
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                To activate this form, sign up at
+                                <br/>
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+
+                        <!-- Submit Button-->
+                        <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; MShazim-Github--Practicing Landing page with Bootstrap--</p></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
