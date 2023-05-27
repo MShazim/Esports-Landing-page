@@ -23,7 +23,7 @@ To use or modify this Esports Landing Page, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/esports-landing-page.git
+git clone https://github.com/MShazim/Esports-Landing-page.git
 ```
 
 2. Navigate to the project directory:
