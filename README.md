@@ -15,7 +15,6 @@ This repository contains the code for an Esports Landing Page built using Bootst
 - HTML5: Markup language for structuring the web page
 - CSS3: Stylesheet language for defining the presentation of the page
 - Bootstrap: CSS framework for building responsive and mobile-first websites
-- JavaScript: Programming language for adding interactive features
 
 ## Usage
 
