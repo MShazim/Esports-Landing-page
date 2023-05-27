@@ -2,6 +2,8 @@
 
 This repository contains the code for an Esports Landing Page built using Bootstrap. The landing page is designed to showcase information and promote an esports organization or event.
 
+Checkout the Landing Page: [Esports-Landing-page](https://mshazim.github.io/Esports-Landing-page/)
+
 ## Features
 
 - Responsive design that adapts to different screen sizes and devices
