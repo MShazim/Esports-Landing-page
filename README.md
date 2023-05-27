@@ -36,7 +36,7 @@ cd Esports-Landing-page
 
 3. Open the `index.html` file in your preferred web browser.
 
-4. Customize the content and styling of the landing page as per your requirements. You can edit the HTML, CSS, and JavaScript files located in the respective directories.
+4. Customize the content and styling of the landing page as per your requirements. You can edit the HTML and CSS files located in the respective directories.
 
 5. Save the changes and refresh the web page in your browser to see the updates.
 
