@@ -69,6 +69,11 @@ git push origin feature/your-feature
 Please ensure that your code adheres to the coding conventions and style of this project.
 
 
+## License
+
+This Landing Page is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute the codebase according to the terms of the license.
+
+
 ## Acknowledgments
 
 - The design and layout of this landing page were inspired by various esports websites and templates.
