@@ -68,9 +68,6 @@ git push origin feature/your-feature
 
 Please ensure that your code adheres to the coding conventions and style of this project.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
